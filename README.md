@@ -1,7 +1,6 @@
 # NoteEase 
 
 "Say goodbye to cluttered notebooks and hello to organization and simplicity with NoteEase - the ultimate note-taking app for your daily life!"
-<br>
 NoteEase is an intuitive and user-friendly note-taking app that simplifies the way you organize and access your notes. With a clean and visually appealing interface, NoteEase makes it easy to create and delete notes on the go.
 
 ## Technologies Used:
@@ -11,7 +10,7 @@ NoteEase is an intuitive and user-friendly note-taking app that simplifies the w
 3) JS
 4) NETLIFY
 
-## Demo:
+## Overview:
 
 <p align="center">
   <img src="5.jpg"/>
