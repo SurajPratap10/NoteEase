@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-heading"><h1>NoteEase</h1></div>
+    <div class="popup-container-closed">
+      <div><input class="headingInput" type="text" placeholder="New Note Heading" required /></div>
+      <div><textarea name="" class="textInput" cols="30" rows="3" placeholder="Your Note"></textarea></div>
+      <div class="addNoteBtn"><button>Add Note</button></div>
+      <div class="closeBtn"><button>Close</button></div>
+    </div>
+    <div class="container">
+      <div class="items">
+        <div class="new-button">
+          <button><ion-icon class="newBtn" name="add-outline"></ion-icon></button>
+        </div>
+        <div class='notes'><h1>Hello There!</h1>
+          <button class='delBtn'><ion-icon name="trash-outline"></ion-icon></button>
+          <p>Write your notes here. (This note can't be deleted)</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
